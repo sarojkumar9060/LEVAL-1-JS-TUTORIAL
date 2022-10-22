@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const numbers=[4,8,2,5,80,100,1]
+        let maximum=-Infinity
+        let minimum=Infinity
+        for(let number of numbers){
+            if(number>maximum)
+            maximum=number
+            if(number<minimum)
+            minimum=number
+        }
+        document.write("THIS IS MAXIMUN=>"+maximum +"<br>","THIS IS MINIMU=>"+minimum+"\n" );
+        document.write("<br>");
+
+
+        var array =[0,1,2,3,-4,5];
+        var n=5;
+
+        let min=array[0];
+        for(let i=0; i<n; i++){
+            if(array[i]<min){
+                min=array[i];
+            }
+        }
+        document.write(min+"<br>");
+        var array =[0,1,2,3,50,100];
+        var n=6;
+
+        let max=array[0];
+        for(let i=0; i<n; i++){
+            if(array[i]>max){
+                max=array[i];
+            }
+        }
+        document.write(max);
+    </script>
+    
+</body>
+</html>
